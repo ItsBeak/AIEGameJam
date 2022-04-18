@@ -39,7 +39,13 @@ public class TierManager : MonoBehaviour
 
             foreach (Tier t in tiers)
             {
-                coinModifier += ((t.amountOwned * (1 * t.modifierPerTier)) * (t.upgradeLevel * 1));
+                coinModifier += ((t.amountOwned * (1 * t.modifierPerTier)));
+
+                if (t.upgradeLevel != 0)
+                {
+                    coinModifier *= t.upgradeLevel;
+                }
+
             }
 
             GameManager.MANAGER.GenerateCoin(coinModifier);
