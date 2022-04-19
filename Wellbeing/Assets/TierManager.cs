@@ -65,7 +65,7 @@ public class Tier
     public string tierName;
     public Sprite icon;
 
-    public int baseCost;
+    public float baseCost;
     public string description;
 
     [HideInInspector]
