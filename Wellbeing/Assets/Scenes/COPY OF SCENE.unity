@@ -339,7 +339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000008677205}
+  m_AnchoredPosition: {x: 0, y: 56.71005}
   m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &258900563
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiers:
   - tierName: Miners
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 5983ffc0a09c94e4bb7d16001df51ea8, type: 3}
     baseCost: 15
     description: Your fellow Well Beings mine for you - gain 0.1 gps
     cost: 0
@@ -516,7 +516,7 @@ MonoBehaviour:
     modifierPerTier: 0.1
     upgradeLevel: 0
   - tierName: Passerbys
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: ab8708cd94ec9414694348e6ea88ccec, type: 3}
     baseCost: 100
     description: More people are stopping by your well - gain 1 gps
     cost: 0
@@ -525,7 +525,7 @@ MonoBehaviour:
     modifierPerTier: 1
     upgradeLevel: 0
   - tierName: Gold Melting
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: d1df3bd201b846742b8b1e14ccfb02a4, type: 3}
     baseCost: 1100
     description: Start melting some of the gold thats dropping - gain 8 gps
     cost: 0
@@ -534,7 +534,7 @@ MonoBehaviour:
     modifierPerTier: 8
     upgradeLevel: 0
   - tierName: Scavenge
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: ca6452bb616997f4aa75c1631e51f688, type: 3}
     baseCost: 12000
     description: Send out more of the Well Beings to search for gold - gain 47 gps
     cost: 0
@@ -543,7 +543,7 @@ MonoBehaviour:
     modifierPerTier: 47
     upgradeLevel: 0
   - tierName: 'Invest '
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 9823855c8e956064980cbf8c92b00a59, type: 3}
     baseCost: 130000
     description: Invest some of your gold and you might come out on top - gain 260
       gps
@@ -553,7 +553,7 @@ MonoBehaviour:
     modifierPerTier: 260
     upgradeLevel: 0
   - tierName: Attractions
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 1018fe2786d98aa418f0a1110a512600, type: 3}
     baseCost: 1400000
     description: Add some attractions around your well and get attention - gain 1.4k
       gps
@@ -563,7 +563,7 @@ MonoBehaviour:
     modifierPerTier: 1400
     upgradeLevel: 0
   - tierName: Skydiving Class
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: bbd3186119a5eae44a9acbeff656345d, type: 3}
     baseCost: 20000000
     description: 'We all had to get down here somehow - gain 4.5k gps '
     cost: 0
@@ -572,13 +572,112 @@ MonoBehaviour:
     modifierPerTier: 4500
     upgradeLevel: 0
   - tierName: Build up your Business
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: cda81223c38fc4f4ea960a7bc32bc297, type: 3}
     baseCost: 330000000
     description: Start selling some merch, people love merch - gain 7.8k gps
     cost: 0
     inflationAmount: 1.15
     amountOwned: 0
     modifierPerTier: 7800
+    upgradeLevel: 0
+  - tierName: News Interviews
+    icon: {fileID: 21300000, guid: 2a2b3e85688f4fd4e93906105d9a0144, type: 3}
+    baseCost: 2.14e+9
+    description: Start selling some merch, people love merch - gain 7.8k gps
+    cost: 0
+    inflationAmount: 1.15
+    amountOwned: 0
+    modifierPerTier: 44000
+    upgradeLevel: 0
+  - tierName: TV Show
+    icon: {fileID: 21300000, guid: 4c80748c7a67adf4881800e7dc4553f7, type: 3}
+    baseCost: 7.5e+10
+    description: Start selling some merch, people love merch - gain 7.8k gps
+    cost: 0
+    inflationAmount: 1.15
+    amountOwned: 0
+    modifierPerTier: 260000
+    upgradeLevel: 0
+  - tierName: Autobiography
+    icon: {fileID: 21300000, guid: 5a64440d44c517549b1161a0eaf08f9c, type: 3}
+    baseCost: 1e+12
+    description: Start selling some merch, people love merch - gain 7.8k gps
+    cost: 0
+    inflationAmount: 1.15
+    amountOwned: 0
+    modifierPerTier: 1600000
+    upgradeLevel: 0
+  - tierName: Scientists
+    icon: {fileID: 21300000, guid: b4cd7e8464a616341a5b50b4a0a569f1, type: 3}
+    baseCost: 1.4e+12
+    description: Start selling some merch, people love merch - gain 7.8k gps
+    cost: 0
+    inflationAmount: 1.15
+    amountOwned: 0
+    modifierPerTier: 10000000
+    upgradeLevel: 0
+  - tierName: Land Buy Out
+    icon: {fileID: 21300000, guid: 11846e0b0ed74714a9b13bde5501e709, type: 3}
+    baseCost: 1.7e+13
+    description: Start selling some merch, people love merch - gain 7.8k gps
+    cost: 0
+    inflationAmount: 1.15
+    amountOwned: 0
+    modifierPerTier: 1.7e+14
+    upgradeLevel: 0
+  - tierName: Build a Bunker
+    icon: {fileID: 21300000, guid: 88c4527e10e31b64ba44796aee3ea739, type: 3}
+    baseCost: 2.1e+15
+    description: Start selling some merch, people love merch - gain 7.8k gps
+    cost: 0
+    inflationAmount: 1.15
+    amountOwned: 0
+    modifierPerTier: 2.1e+15
+    upgradeLevel: 0
+  - tierName: Electric Cars
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    baseCost: 2.5e+15
+    description: Start selling some merch, people love merch - gain 7.8k gps
+    cost: 0
+    inflationAmount: 1.15
+    amountOwned: 0
+    modifierPerTier: 2.6e+16
+    upgradeLevel: 0
+  - tierName: Space Company
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    baseCost: 3.1e+15
+    description: Start selling some merch, people love merch - gain 7.8k gps
+    cost: 0
+    inflationAmount: 1.15
+    amountOwned: 0
+    modifierPerTier: 3.1e+17
+    upgradeLevel: 0
+  - tierName: Time Traveling
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    baseCost: 7.1e+19
+    description: Start selling some merch, people love merch - gain 7.8k gps
+    cost: 0
+    inflationAmount: 1.15
+    amountOwned: 0
+    modifierPerTier: 7.1e+19
+    upgradeLevel: 0
+  - tierName: Brainwashing
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    baseCost: 1.2e+22
+    description: Start selling some merch, people love merch - gain 7.8k gps
+    cost: 0
+    inflationAmount: 1.15
+    amountOwned: 0
+    modifierPerTier: 1.2e+22
+    upgradeLevel: 0
+  - tierName: 'Overtaking '
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    baseCost: 1e+24
+    description: 'This was your whole plan, we are all Well Beings gain '
+    cost: 0
+    inflationAmount: 1.15
+    amountOwned: 0
+    modifierPerTier: 1.9e+24
     upgradeLevel: 0
   tierParent: {fileID: 1385660596}
   tierPrefab: {fileID: 6808200752763298840, guid: 10bdb8259a13b064b947f92b9325ea20, type: 3}
@@ -597,43 +696,207 @@ MonoBehaviour:
   upgrades:
   - upgradeName: Gold Pickaxes
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
     upgradeCost: 100
     description: Start using gold collected to make better tools - gain 2x more gold
       miners
     tierToUpgrade: 1
     upgradeAmount: 2
+    purchased: 0
   - upgradeName: Diamond Pickaxes
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
     upgradeCost: 500
     description: Better tools more money - gain 2x more gold from miners
     tierToUpgrade: 1
     upgradeAmount: 2
+    purchased: 0
   - upgradeName: Obsidian Pickaxes
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
     upgradeCost: 10000
     description: These tools remind me of another game - gain 2x more gold from miners
     tierToUpgrade: 1
     upgradeAmount: 2
+    purchased: 0
   - upgradeName: Drills
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
     upgradeCost: 100000
     description: Using drills,smart - gain 2x more gold from miners
     tierToUpgrade: 1
     upgradeAmount: 2
+    purchased: 0
   - upgradeName: Reinforced Drills
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
     upgradeCost: 10000000
     description: Using drills,smart make them better,smarter- gain 2x more gold from
       miners
     tierToUpgrade: 1
     upgradeAmount: 2
+    purchased: 0
   - upgradeName: Black Hole Miner
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
-    upgradeCost: 1000000000
+    prefabUI: {fileID: 0}
+    upgradeCost: 1e+9
     description: THE POWER OF THE SUN IN THE PALM OF YOUR HAND - gain 2x more gold
       from miners
     tierToUpgrade: 1
     upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Grant Wishes
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 1000
+    description: How nice of you - gain 2x gold from passbuyers
+    tierToUpgrade: 2
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Monumentous
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 5000
+    description: Your well is regognised as a monument  - gain 2x gold from passbuyers
+    tierToUpgrade: 2
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Blessed
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 50000
+    description: The well has been blessed by the pope  - gain 2x gold from passbuyers
+    tierToUpgrade: 2
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Healing Properties
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 5000000
+    description: Since the blessing passbuyers think your well has healing properties 
+      - gain 2x gold from passbuyers
+    tierToUpgrade: 2
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Studied
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 500000000
+    description: People are studying you and crowding around you now  - gain 2x gold
+      from passbuyers
+    tierToUpgrade: 2
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Wonder of the World
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 5e+10
+    description: Your well is now recognised as a Wonder of the World  - gain 2x
+      gold from passbuyers
+    tierToUpgrade: 2
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Furnace
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 11000
+    description: You are going to need this - gain 2x gold from gold melting
+    tierToUpgrade: 3
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Jewellery
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 55000
+    description: ' Start making jewellery from your gold - gain 2x gold from gold
+      melting'
+    tierToUpgrade: 3
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Bars
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 550000
+    description: Start melting gold into solid bars who knows maybe a pandemic will
+      rise its price - gain 2x gold from gold melting
+    tierToUpgrade: 3
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: 'Computer Company '
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 55000000
+    description: Computers have a surprising amount of gold in them, that could be
+      useful - gain 2x gold from gold melting
+    tierToUpgrade: 3
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Throne
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 5.5e+9
+    description: The Queen has asked for a solid gold throne - gain 2x gold from
+      gold melting
+    tierToUpgrade: 3
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Bank
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 5.5e+11
+    description: Start a bank after all you need to store all your gold somewhere
+      - gain 2x gold from gold melting
+    tierToUpgrade: 3
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Bags
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 120000
+    description: You can now pick up more - gain 2x gold from scavengers
+    tierToUpgrade: 4
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Henchmen
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 600000
+    description: The more the merrier- gain 2x gold from scavengers
+    tierToUpgrade: 4
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Blackmail
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 6000000
+    description: Humans dont matter you need the gold - gain 2x gold from scavengers
+    tierToUpgrade: 4
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Henchmen But More
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 600000000
+    description: The more workers the more gold - gain 2x gold from scavengers
+    tierToUpgrade: 4
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Search and Destroy
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 6e+9
+    description: We must go worldwide, send them worldwide - gain 2x gold from scavengers
+    tierToUpgrade: 4
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Empire
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 6e+12
+    description: All the Well Beings must search - gain 2x gold from scavengers
+    tierToUpgrade: 4
+    upgradeAmount: 2
+    purchased: 0
   upgradeParent: {fileID: 258900562}
   upgradePrefab: {fileID: 6808200752763298840, guid: 1c2d8c987fe4bc44eb0e84f72bf2ebec, type: 3}
 --- !u!1 &491326590
@@ -712,101 +975,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491326590}
   m_CullTransparentMesh: 1
---- !u!1 &554652031
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 554652035}
-  - component: {fileID: 554652034}
-  - component: {fileID: 554652033}
-  - component: {fileID: 554652032}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &554652032
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554652031}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &554652033
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554652031}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &554652034
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554652031}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &554652035
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554652031}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.28, y: -1.18, z: -3.98}
-  m_LocalScale: {x: 13.796999, y: 1, z: 8.1925}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &573131120
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +1094,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 143025191}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.9994572
+  m_Size: 0
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1121,7 +1289,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 20
   m_Viewport: {fileID: 1800240815}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 2043151152}
@@ -1363,7 +1531,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966578999}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -1702,8 +1870,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00003454403}
-  m_SizeDelta: {x: 0, y: 600}
+  m_AnchoredPosition: {x: 0, y: 0.0000050413837}
+  m_SizeDelta: {x: 0, y: 1100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1385660597
 MonoBehaviour:
@@ -1723,7 +1891,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 0
+  m_Spacing: 1
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -2014,7 +2182,7 @@ RectTransform:
   m_GameObject: {fileID: 1814689327}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.871696, y: 2.871696, z: 2.871696}
   m_Children:
   - {fileID: 966579000}
   m_Father: {fileID: 1269538101}
@@ -2022,7 +2190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -340, y: 0}
+  m_AnchoredPosition: {x: -163, y: 53}
   m_SizeDelta: {x: 400, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1814689329
@@ -2094,14 +2262,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.78125644, b: 0.3537736, a: 1}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2404,6 +2572,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951290374}
   m_CullTransparentMesh: 1
+--- !u!1001 &2003456238
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0070924256
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0070924265
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.007092427
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.479999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.6100008
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.6400003
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0000005662441
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_Name
+      value: Well
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
 --- !u!1 &2043151150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2486,8 +2723,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1951290376}
   m_HandleRect: {fileID: 1951290375}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 0.9994574
+  m_Value: 1
+  m_Size: 0.54545456
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
