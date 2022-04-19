@@ -339,7 +339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 56.71005}
+  m_AnchoredPosition: {x: 0, y: 39.22713}
   m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &258900563
@@ -572,7 +572,7 @@ MonoBehaviour:
     modifierPerTier: 4500
     upgradeLevel: 0
   - tierName: Build up your Business
-    icon: {fileID: 21300000, guid: cda81223c38fc4f4ea960a7bc32bc297, type: 3}
+    icon: {fileID: 21300000, guid: d67e935f80a2fbc468593148f8ec9d3a, type: 3}
     baseCost: 330000000
     description: Start selling some merch, people love merch - gain 7.8k gps
     cost: 0
@@ -617,7 +617,7 @@ MonoBehaviour:
     modifierPerTier: 10000000
     upgradeLevel: 0
   - tierName: Land Buy Out
-    icon: {fileID: 21300000, guid: 11846e0b0ed74714a9b13bde5501e709, type: 3}
+    icon: {fileID: 21300000, guid: a3a5b1ce19ea0db43a9b9204822cfc4a, type: 3}
     baseCost: 1.7e+13
     description: Start selling some merch, people love merch - gain 7.8k gps
     cost: 0
@@ -626,7 +626,7 @@ MonoBehaviour:
     modifierPerTier: 1.7e+14
     upgradeLevel: 0
   - tierName: Build a Bunker
-    icon: {fileID: 21300000, guid: 88c4527e10e31b64ba44796aee3ea739, type: 3}
+    icon: {fileID: 21300000, guid: 0dd164c1342ecbc4e9a8f2887de225a5, type: 3}
     baseCost: 2.1e+15
     description: Start selling some merch, people love merch - gain 7.8k gps
     cost: 0
@@ -635,7 +635,7 @@ MonoBehaviour:
     modifierPerTier: 2.1e+15
     upgradeLevel: 0
   - tierName: Electric Cars
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 915393e0be4b7dc4b8ee04fe0d893e66, type: 3}
     baseCost: 2.5e+15
     description: Start selling some merch, people love merch - gain 7.8k gps
     cost: 0
@@ -644,7 +644,7 @@ MonoBehaviour:
     modifierPerTier: 2.6e+16
     upgradeLevel: 0
   - tierName: Space Company
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 3e308955333913e4f865e2c10ccda6e8, type: 3}
     baseCost: 3.1e+15
     description: Start selling some merch, people love merch - gain 7.8k gps
     cost: 0
@@ -653,7 +653,7 @@ MonoBehaviour:
     modifierPerTier: 3.1e+17
     upgradeLevel: 0
   - tierName: Time Traveling
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 7dc89f8dbbf51134d990df690397b532, type: 3}
     baseCost: 7.1e+19
     description: Start selling some merch, people love merch - gain 7.8k gps
     cost: 0
@@ -662,7 +662,7 @@ MonoBehaviour:
     modifierPerTier: 7.1e+19
     upgradeLevel: 0
   - tierName: Brainwashing
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 4348492109e5f9b4aa794d70b6804e95, type: 3}
     baseCost: 1.2e+22
     description: Start selling some merch, people love merch - gain 7.8k gps
     cost: 0
@@ -671,7 +671,7 @@ MonoBehaviour:
     modifierPerTier: 1.2e+22
     upgradeLevel: 0
   - tierName: 'Overtaking '
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: fbc56485905b0bf469d40be1299a27c3, type: 3}
     baseCost: 1e+24
     description: 'This was your whole plan, we are all Well Beings gain '
     cost: 0
