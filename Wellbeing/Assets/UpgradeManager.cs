@@ -19,7 +19,7 @@ public class UpgradeManager : MonoBehaviour
         {
             if (!u.purchased)
             {
-                if (GameManager.MANAGER.tierManager.tiers[u.tierToUpgrade - 1].amountOwned > 0)
+                if (GameManager.MANAGER.tierManager.tiers[u.tierToUpgrade - 1].amountOwned > 0 && GameManager.MANAGER.coins >= u.upgradeCost)
                 {
                     if (u.prefabUI == null)
                     {
