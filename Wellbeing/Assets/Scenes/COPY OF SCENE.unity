@@ -339,7 +339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 52.78078}
+  m_AnchoredPosition: {x: 0, y: 89.21398}
   m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &258900563
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiers:
   - tierName: Miners
-    icon: {fileID: 21300000, guid: 7f610f4ba60e5ef4b9c0a7452a137609, type: 3}
+    icon: {fileID: 21300000, guid: 5983ffc0a09c94e4bb7d16001df51ea8, type: 3}
     baseCost: 15
     description: Your fellow Well Beings mine for you - gain 0.1 gps
     cost: 0
@@ -516,7 +516,7 @@ MonoBehaviour:
     modifierPerTier: 0.1
     upgradeLevel: 0
   - tierName: Passerbys
-    icon: {fileID: 21300000, guid: 89ca3d78a0eff8e44824ab264a797cc3, type: 3}
+    icon: {fileID: 21300000, guid: ab8708cd94ec9414694348e6ea88ccec, type: 3}
     baseCost: 100
     description: More people are stopping by your well - gain 1 gps
     cost: 0
@@ -525,7 +525,7 @@ MonoBehaviour:
     modifierPerTier: 1
     upgradeLevel: 0
   - tierName: Gold Melting
-    icon: {fileID: 21300000, guid: d6980d7f635bd094d8a9c1783bbb6818, type: 3}
+    icon: {fileID: 21300000, guid: d1df3bd201b846742b8b1e14ccfb02a4, type: 3}
     baseCost: 1100
     description: Start melting some of the gold thats dropping - gain 8 gps
     cost: 0
@@ -534,7 +534,7 @@ MonoBehaviour:
     modifierPerTier: 8
     upgradeLevel: 0
   - tierName: Scavenge
-    icon: {fileID: 21300000, guid: cac955244fe7e3e439b1bcb664c28df2, type: 3}
+    icon: {fileID: 21300000, guid: ca6452bb616997f4aa75c1631e51f688, type: 3}
     baseCost: 12000
     description: Send out more of the Well Beings to search for gold - gain 47 gps
     cost: 0
@@ -543,7 +543,7 @@ MonoBehaviour:
     modifierPerTier: 47
     upgradeLevel: 0
   - tierName: 'Invest '
-    icon: {fileID: 21300000, guid: 2474336eea628b9468ec49c0f52d8156, type: 3}
+    icon: {fileID: 21300000, guid: 9823855c8e956064980cbf8c92b00a59, type: 3}
     baseCost: 130000
     description: Invest some of your gold and you might come out on top - gain 260
       gps
@@ -553,7 +553,7 @@ MonoBehaviour:
     modifierPerTier: 260
     upgradeLevel: 0
   - tierName: Attractions
-    icon: {fileID: 21300000, guid: 1c3216cc688eb064984f9105b1444869, type: 3}
+    icon: {fileID: 21300000, guid: 1018fe2786d98aa418f0a1110a512600, type: 3}
     baseCost: 1400000
     description: Add some attractions around your well and get attention - gain 1.4k
       gps
@@ -563,7 +563,7 @@ MonoBehaviour:
     modifierPerTier: 1400
     upgradeLevel: 0
   - tierName: Skydiving Class
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: bbd3186119a5eae44a9acbeff656345d, type: 3}
     baseCost: 20000000
     description: 'We all had to get down here somehow - gain 4.5k gps '
     cost: 0
@@ -572,7 +572,7 @@ MonoBehaviour:
     modifierPerTier: 4500
     upgradeLevel: 0
   - tierName: Build up your Business
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: cda81223c38fc4f4ea960a7bc32bc297, type: 3}
     baseCost: 330000000
     description: Start selling some merch, people love merch - gain 7.8k gps
     cost: 0
@@ -581,7 +581,7 @@ MonoBehaviour:
     modifierPerTier: 7800
     upgradeLevel: 0
   - tierName: News Interviews
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 2a2b3e85688f4fd4e93906105d9a0144, type: 3}
     baseCost: 2.14e+9
     description: Start selling some merch, people love merch - gain 7.8k gps
     cost: 0
@@ -590,7 +590,7 @@ MonoBehaviour:
     modifierPerTier: 44000
     upgradeLevel: 0
   - tierName: TV Show
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 4c80748c7a67adf4881800e7dc4553f7, type: 3}
     baseCost: 7.5e+10
     description: Start selling some merch, people love merch - gain 7.8k gps
     cost: 0
@@ -599,7 +599,7 @@ MonoBehaviour:
     modifierPerTier: 260000
     upgradeLevel: 0
   - tierName: Autobiography
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 5a64440d44c517549b1161a0eaf08f9c, type: 3}
     baseCost: 1e+12
     description: Start selling some merch, people love merch - gain 7.8k gps
     cost: 0
@@ -849,13 +849,52 @@ MonoBehaviour:
     tierToUpgrade: 3
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Bank
+  - upgradeName: Bags
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 5.5e+11
-    description: Start a bank after all you need to store all your gold somewhere
-      - gain 2x gold from gold melting
-    tierToUpgrade: 3
+    upgradeCost: 120000
+    description: You can now pick up more - gain 2x gold from scavengers
+    tierToUpgrade: 4
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Henchmen
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 600000
+    description: The more the merrier- gain 2x gold from scavengers
+    tierToUpgrade: 4
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Blackmail
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 6000000
+    description: Humans dont matter you need the gold - gain 2x gold from scavengers
+    tierToUpgrade: 4
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Henchmen But More
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 600000000
+    description: The more workers the more gold - gain 2x gold from scavengers
+    tierToUpgrade: 4
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Search and Destroy
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 6e+9
+    description: We must go worldwide, send them worldwide - gain 2x gold from scavengers
+    tierToUpgrade: 4
+    upgradeAmount: 2
+    purchased: 0
+  - upgradeName: Empire
+    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    prefabUI: {fileID: 0}
+    upgradeCost: 6e+12
+    description: All the Well Beings must search - gain 2x gold from scavengers
+    tierToUpgrade: 4
     upgradeAmount: 2
     purchased: 0
   upgradeParent: {fileID: 258900562}
@@ -936,101 +975,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491326590}
   m_CullTransparentMesh: 1
---- !u!1 &554652031
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 554652035}
-  - component: {fileID: 554652034}
-  - component: {fileID: 554652033}
-  - component: {fileID: 554652032}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &554652032
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554652031}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &554652033
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554652031}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &554652034
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554652031}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &554652035
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554652031}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.28, y: -1.18, z: -3.98}
-  m_LocalScale: {x: 13.796999, y: 1, z: 8.1925}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &573131120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,7 +1531,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966578999}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -2238,7 +2182,7 @@ RectTransform:
   m_GameObject: {fileID: 1814689327}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.871696, y: 2.871696, z: 2.871696}
   m_Children:
   - {fileID: 966579000}
   m_Father: {fileID: 1269538101}
@@ -2246,7 +2190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -340, y: 0}
+  m_AnchoredPosition: {x: -163, y: 53}
   m_SizeDelta: {x: 400, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1814689329
@@ -2318,14 +2262,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.78125644, b: 0.3537736, a: 1}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2553,6 +2497,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920664596}
   m_CullTransparentMesh: 1
+--- !u!1001 &1947687522
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0034239918
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0034239918
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0034239918
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.07
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00000058114523
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
+      propertyPath: m_Name
+      value: well_well_well
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35045a023d523f440b3fd2e41e7d5092, type: 3}
 --- !u!1 &1951290374
 GameObject:
   m_ObjectHideFlags: 0
@@ -2754,98 +2767,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043151150}
   m_CullTransparentMesh: 1
---- !u!1 &2137026492
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2137026496}
-  - component: {fileID: 2137026495}
-  - component: {fileID: 2137026494}
-  - component: {fileID: 2137026493}
-  m_Layer: 0
-  m_Name: Cube (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &2137026493
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137026492}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &2137026494
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137026492}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &2137026495
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137026492}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &2137026496
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137026492}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.78999996, y: 3.22, z: -3.98}
-  m_LocalScale: {x: 8, y: 8, z: 8}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
