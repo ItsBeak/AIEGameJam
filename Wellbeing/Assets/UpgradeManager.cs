@@ -48,7 +48,7 @@ public class Upgrade
 
     public GameObject prefabUI;
 
-    public int upgradeCost;
+    public float upgradeCost;
     public string description;
 
     public int tierToUpgrade;
