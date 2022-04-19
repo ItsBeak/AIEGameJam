@@ -350,10 +350,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
+  m_fontSize: 27.8
   m_fontSizeBase: 25
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -561,10 +561,12 @@ MonoBehaviour:
   assignedUpgrade:
     upgradeName: 
     icon: {fileID: 0}
+    prefabUI: {fileID: 0}
     upgradeCost: 0
     description: 
     tierToUpgrade: 0
     upgradeAmount: 0
+    purchased: 0
   icon: {fileID: 6808200752477414551}
   buttonBacker: {fileID: 6808200751495216016}
   canBuy: {r: 0.5137255, g: 0.93333334, b: 0.56078434, a: 1}

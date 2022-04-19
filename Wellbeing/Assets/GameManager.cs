@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     public TierManager tierManager;
     public UpgradeManager upgradeManager;
 
-    public float coins;
+    public double coins;
     public TextMeshProUGUI coinReadout;
 
     void Awake()
@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        coinReadout.text = "Coins: " + Mathf.Round(coins * 100) / 100;
+        coinReadout.text = "Coins: " + Mathf.Round((float)coins * 100) / 100;
     }
 
     public void ThrowCoin()

@@ -51,6 +51,10 @@ public class UpgradeUI : MonoBehaviour
 
             GameManager.MANAGER.tierManager.tiers[assignedUpgrade.tierToUpgrade].upgradeLevel += assignedUpgrade.upgradeAmount;
 
+            assignedUpgrade.purchased = true;
+
+            gameObject.SetActive(false);
+
         }
     }
 }

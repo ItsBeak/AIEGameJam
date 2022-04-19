@@ -11,21 +11,34 @@ public class UpgradeManager : MonoBehaviour
     public Transform upgradeParent;
     public GameObject upgradePrefab;
 
-    private void Start()
+
+
+    private void Update()
     {
         foreach (Upgrade u in upgrades)
         {
-            GameObject newUpgrade;
+            if (!u.purchased)
+            {
+                if (GameManager.MANAGER.tierManager.tiers[u.tierToUpgrade - 1].amountOwned > 0)
+                {
+                    if (u.prefabUI == null)
+                    {
+                        GameObject newUI;
 
-            newUpgrade = Instantiate(upgradePrefab, upgradeParent);
+                        newUI = Instantiate(upgradePrefab, upgradeParent);
 
-            newUpgrade.GetComponent<UpgradeUI>().assignedUpgrade = u;
-            newUpgrade.GetComponent<UpgradeUI>().icon.sprite = u.icon;
+                        newUI.GetComponent<UpgradeUI>().assignedUpgrade = u;
+                        newUI.GetComponent<UpgradeUI>().icon.sprite = u.icon;
 
+                        u.prefabUI = newUI;
+                    }
+                }
+            }
         }
     }
-
 }
+
+
 
 [System.Serializable]
 public class Upgrade
@@ -33,10 +46,14 @@ public class Upgrade
     public string upgradeName;
     public Sprite icon;
 
+    public GameObject prefabUI;
+
     public int upgradeCost;
     public string description;
 
     public int tierToUpgrade;
     public float upgradeAmount;
+
+    public bool purchased;
   
 }

@@ -37,7 +37,7 @@ public class TierUI : MonoBehaviour
     void Update()
     {
 
-        costText.text = assignedTier.cost.ToString() + "g";
+        costText.text = (Mathf.Round((float)assignedTier.cost * 100) / 100).ToString() + "g";
         amountText.text = assignedTier.amountOwned.ToString();
 
         if (assignedTier.cost <= GameManager.MANAGER.coins)
