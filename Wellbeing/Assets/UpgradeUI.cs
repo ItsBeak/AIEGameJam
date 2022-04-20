@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
+using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 using TMPro;
 
-public class UpgradeUI : MonoBehaviour
+public class UpgradeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public Upgrade assignedUpgrade;
 
@@ -56,5 +57,17 @@ public class UpgradeUI : MonoBehaviour
             gameObject.SetActive(false);
 
         }
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        Debug.Log("ayy lmao");
+        TooltipManager.TM.ShowTooltip(assignedUpgrade.description);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        TooltipManager.TM.HideTooltip();
+        Debug.Log("ayy where you go");
     }
 }

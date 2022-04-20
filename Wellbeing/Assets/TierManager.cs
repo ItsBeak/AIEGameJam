@@ -55,8 +55,6 @@ public class TierManager : MonoBehaviour
         }
 
     }
-
-
 }
 
 [System.Serializable]
