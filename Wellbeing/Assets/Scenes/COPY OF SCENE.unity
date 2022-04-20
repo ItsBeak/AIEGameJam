@@ -339,7 +339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000013291767}
+  m_AnchoredPosition: {x: 0, y: 0.00014206412}
   m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &258900563
@@ -368,6 +368,11 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!224 &288583679 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+  m_PrefabInstance: {fileID: 1440269407}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &344796366
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,7 +538,7 @@ MonoBehaviour:
     amountOwned: 0
     modifierPerTier: 8
     upgradeLevel: 0
-  - tierName: Scavenge
+  - tierName: Scavenger
     icon: {fileID: 21300000, guid: ca6452bb616997f4aa75c1631e51f688, type: 3}
     baseCost: 12000
     description: Send out more of the Well Beings to search for gold - gain 47 gps
@@ -695,7 +700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgrades:
   - upgradeName: Gold Pickaxes
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 52690f112eec52f4fbbd271f0fd776c3, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 100
     description: Start using gold collected to make better tools - gain 2x more gold
@@ -704,7 +709,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Diamond Pickaxes
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: daa185469f417044c86a76a0acffe819, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 500
     description: Better tools more money - gain 2x more gold from miners
@@ -712,7 +717,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Obsidian Pickaxes
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 9e39d14a7b177f748a8ef1a2fb720f85, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 10000
     description: These tools remind me of another game - gain 2x more gold from miners
@@ -720,7 +725,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Drills
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 4acdc239026f0924fa264e72527fa879, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 100000
     description: Using drills,smart - gain 2x more gold from miners
@@ -728,7 +733,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Reinforced Drills
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: f0c3df5b33c22404da2033b1b53a4c36, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 10000000
     description: Using drills,smart make them better,smarter- gain 2x more gold from
@@ -737,7 +742,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Black Hole Miner
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 22399e5a7989bd24f85ef6c220c3ddbe, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 1e+9
     description: THE POWER OF THE SUN IN THE PALM OF YOUR HAND - gain 2x more gold
@@ -746,7 +751,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Grant Wishes
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 5af37754c97c1594f908c3b58e5a9a06, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 1000
     description: How nice of you - gain 2x gold from passbuyers
@@ -754,7 +759,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Monumentous
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: d291edaed686f34409d5aa5d8491036f, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 5000
     description: Your well is regognised as a monument  - gain 2x gold from passbuyers
@@ -762,7 +767,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Blessed
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 575e5762fa1f0f846aebd3c1b9e72067, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 50000
     description: The well has been blessed by the pope  - gain 2x gold from passbuyers
@@ -770,7 +775,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Healing Properties
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: f2a9b4ee796c7fc4c894342462d70ee9, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 5000000
     description: Since the blessing passbuyers think your well has healing properties 
@@ -779,7 +784,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Studied
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: d088b4f67361cbb4d811e25cbe2bc241, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 500000000
     description: People are studying you and crowding around you now  - gain 2x gold
@@ -788,7 +793,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Wonder of the World
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 1930ad6e6a4ed97468d684d65f627b6e, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 5e+10
     description: Your well is now recognised as a Wonder of the World  - gain 2x
@@ -797,7 +802,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Furnace
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: d1df3bd201b846742b8b1e14ccfb02a4, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 11000
     description: You are going to need this - gain 2x gold from gold melting
@@ -805,7 +810,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Jewellery
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: bf513574b49d40f49afca85e9897cec0, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 55000
     description: ' Start making jewellery from your gold - gain 2x gold from gold
@@ -814,7 +819,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Bars
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 7d2eeac965d3da942804b31653bfe1c8, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 550000
     description: Start melting gold into solid bars who knows maybe a pandemic will
@@ -823,7 +828,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: 'Computer Company '
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 69242a54d544d614a82f89350d8809f8, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 55000000
     description: Computers have a surprising amount of gold in them, that could be
@@ -832,7 +837,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Throne
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 8002380ffc2fe044b84e45b44576fc19, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 5.5e+9
     description: The Queen has asked for a solid gold throne - gain 2x gold from
@@ -841,7 +846,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Bank
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 59734c252629ad14485ab556d4951ac6, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 5.5e+11
     description: Start a bank after all you need to store all your gold somewhere
@@ -850,7 +855,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Bags
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 50f3207e8ac878041a15004f3f0d4d77, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 120000
     description: You can now pick up more - gain 2x gold from scavengers
@@ -858,7 +863,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Henchmen
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 9396be5ffd7e1bf47a308a7d78d1be2e, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 600000
     description: The more the merrier- gain 2x gold from scavengers
@@ -866,7 +871,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Blackmail
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 87534b5e8ea76894894a99713518b548, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 6000000
     description: Humans dont matter you need the gold - gain 2x gold from scavengers
@@ -874,7 +879,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Henchmen But More
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 2a6f854facfbb4044a4823d9334597e7, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 600000000
     description: The more workers the more gold - gain 2x gold from scavengers
@@ -882,7 +887,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Search and Destroy
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 8722307d5d324de4dae0f8734055b2c4, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 6e+9
     description: We must go worldwide, send them worldwide - gain 2x gold from scavengers
@@ -890,7 +895,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Empire
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 4f87cae68907c664482a005fde486fd8, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 6e+12
     description: All the Well Beings must search - gain 2x gold from scavengers
@@ -898,7 +903,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Daystation Stocks
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 3c36c1f87239156489a09ca1cecbe510, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 1300000
     description: Cant start a game company without buying one - gain 2x gold from
@@ -907,7 +912,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Xdox Stocks
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 1cdd5fb3e286b824897d7e3c73108599, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 6500000
     description: Look its doing better then Daystation at thew moment - gain 2x gold
@@ -916,7 +921,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: NFT Collection
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: ce5d7ef3a3b80cc44b2cf9a0fabd9933, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 65000000
     description: Start a Well Beings NFT collectiong and collect all those profits
@@ -925,7 +930,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Well Being Coin
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 0417e5d5779d17f4289e2bab5b51d2dc, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 6.5e+9
     description: Start your own coin. It will do good we promise - gain 2x gold from
@@ -934,7 +939,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Housing Market
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: cb45ac640a9de0645a486633c871fbd5, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 6.5e+11
     description: Who knows maybe a pandemic will cause the market to spike - gain
@@ -943,7 +948,7 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Cat Hotels
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 5279a6a8443250b418af0eba3dfeb25e, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 6.5e+13
     description: Its the next biggest thing why not invest - gain 2x gold from investing
@@ -951,674 +956,662 @@ MonoBehaviour:
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Stalls
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: decfdf1686676dd4389d5b4b44682841, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 14000000
+    description: Set up some small stalls that will bring people around - gain 2x
+      gold from attractions
     tierToUpgrade: 6
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Stalls
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: 'Food '
+    icon: {fileID: 21300000, guid: 83bb28c84eeab1345894369013757375, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 7e+14
+    description: Humans like food dont they - gain 2x gold from attractions
     tierToUpgrade: 6
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Stalls
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Rides
+    icon: {fileID: 21300000, guid: 1018fe2786d98aa418f0a1110a512600, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 7e+15
+    description: Bring the kids around to well steal their money - gain 2x gold from
+      attractions
     tierToUpgrade: 6
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Stalls
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Tickets
+    icon: {fileID: 21300000, guid: 22fa4ffd5d900c1439840685c9eddb8d, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 7e+10
+    description: Upcharge those tickets get that money - gain 2x gold from attractions
     tierToUpgrade: 6
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Stalls
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Theme Parks
+    icon: {fileID: 21300000, guid: bf15d1e893927354ab832f7b2cfc959d, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 7e+12
+    description: Open your well up to everyone bring everyone over to see your well
+      - gain 2x gold from attractions
     tierToUpgrade: 6
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Stalls
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: World Wide
+    icon: {fileID: 21300000, guid: 688abd3b76cc05042bae11e9de861c7e, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 7e+14
+    description: Make your parks go world wide, yes even Antartica - gain 2x gold
+      from attractions
     tierToUpgrade: 6
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Small Class
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 5aa2b217e4d91a84193d3a30a436989e, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 200000000
+    description: People want to learn your ways - gain 2x gold from skydiving classes
     tierToUpgrade: 7
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Small Class
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Instructional Video
+    icon: {fileID: 21300000, guid: 5e66cedf15c40a145884ecfac53770ab, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1e+9
+    description: People learn better from videos I hear - gain 2x gold from skydiving
+      classes
     tierToUpgrade: 7
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Small Class
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: 'Well Being '
+    icon: {fileID: 21300000, guid: 69242a54d544d614a82f89350d8809f8, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1e+10
+    description: See we included mindfulness here see - gain 2x gold from skydiving
+      classes
     tierToUpgrade: 7
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Small Class
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Parachute Company
+    icon: {fileID: 21300000, guid: 357500f5ecd271243b109d2cd9a96c1c, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1e+12
+    description: They are really safe I promise, especially for humans
     tierToUpgrade: 7
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Small Class
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Plane Company
+    icon: {fileID: 21300000, guid: e01247a6c0290d0478d8cde0c208b076, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    description: Our planes have the greatest safety, especially for humans - gain
+      2x gold from skydiving classes
     tierToUpgrade: 7
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Small Class
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Rocket Gliders
+    icon: {fileID: 21300000, guid: 2eaa8b4d7d031c546a2855199bc09877, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1e+14
+    description: FLY ME TO THE MOON - gain 2x gold from skydiving classes
     tierToUpgrade: 7
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Sell Shirts
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 6fbdfa50447854a4ea113b8167803815, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 3.3e+9
+    description: People love shirts, especially if they fit - gain 2x gold from Build
+      up Business
     tierToUpgrade: 8
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Sell Shirts
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Well Being Figures
+    icon: {fileID: 21300000, guid: 23f5ec9a176698d419702cbb83cf4f53, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.65e+10
+    description: FIGURES WOW - gain 2x gold from Build up business
     tierToUpgrade: 8
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Sell Shirts
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Marketing Team
+    icon: {fileID: 21300000, guid: a3a5b1ce19ea0db43a9b9204822cfc4a, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.65e+11
+    description: Hire those humans they know what humans like - earn 2x gold from
+      Build up business
     tierToUpgrade: 8
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Sell Shirts
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Billboards
+    icon: {fileID: 21300000, guid: 8dd30fb49d4337c44ba55da51ad640e3, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.6e+12
+    description: Its what the humans said to do I dont know - gain 2x gold form Build
+      up business
     tierToUpgrade: 8
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Sell Shirts
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Pyramid Scheme
+    icon: {fileID: 21300000, guid: 91964c0e9485b0549aadd31940774611, type: 3}
     prefabUI: {fileID: 0}
     upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    description: Now that the humans trust you, use them - gain 2x gold from Build
+      up business
     tierToUpgrade: 8
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Sell Shirts
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Buy Movie Companies
+    icon: {fileID: 21300000, guid: 4a95092bff730c44586b36ba30ea9d89, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.65e+15
+    description: Aye if other companies can do it why cant you - gain 2x gold from
+      Build up business
     tierToUpgrade: 8
-    upgradeAmount: 2
-    purchased: 0
-  - upgradeName: Well News
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
-    prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
-    tierToUpgrade: 9
-    upgradeAmount: 2
-    purchased: 0
-  - upgradeName: Well News
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
-    prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
-    tierToUpgrade: 9
-    upgradeAmount: 2
-    purchased: 0
-  - upgradeName: Well News
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
-    prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
-    tierToUpgrade: 9
-    upgradeAmount: 2
-    purchased: 0
-  - upgradeName: Well News
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
-    prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
-    tierToUpgrade: 9
-    upgradeAmount: 2
-    purchased: 0
-  - upgradeName: Well News
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
-    prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
-    tierToUpgrade: 9
-    upgradeAmount: 2
-    purchased: 0
-  - upgradeName: Well News
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
-    prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
-    tierToUpgrade: 9
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Cable TV
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 4c80748c7a67adf4881800e7dc4553f7, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 5.1e+10
+    description: Get your name out, around you is good enough - gain 2x gold from
+      news interviews
     tierToUpgrade: 10
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Cable TV
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Get on 59 Minutes
+    icon: {fileID: 21300000, guid: e4d48491dc826b04f93574034fcca555, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 2.55e+11
+    description: The biggest news channel in Australia - gain 2x gold from news interviews
     tierToUpgrade: 10
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Cable TV
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Start Your Own News
+    icon: {fileID: 21300000, guid: 644e595e32e73ce4c892c16124ad7135, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 2.55e+12
+    description: Look you can be as corrupt as you want - gain 2x gold from news
+      interviews
     tierToUpgrade: 10
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Cable TV
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: News App
+    icon: {fileID: 21300000, guid: 40fce61eff2044843a440ea8b19a0732, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 2.55e+14
+    description: SAY ANYTHING ANYTHING YOU WANT - gain 2x gold from news interviews
     tierToUpgrade: 10
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Cable TV
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Buy all the Newspapers
+    icon: {fileID: 21300000, guid: b5be79b3a13be144bb86be5693e8778c, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 2.55e+16
+    description: Its a broken form of news but still a way to get out there - gain
+      2x gold from news interviews
     tierToUpgrade: 10
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Cable TV
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Govern the News
+    icon: {fileID: 21300000, guid: c0455ff95975d474db378beb9448a664, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 2.55e+18
+    description: You controll all the news going in and out - gain 2x gold from news
+      interviews
     tierToUpgrade: 10
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Book Store
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 1d8c0d3946daae6469728b8a57e12504, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 7.5e+11
+    description: Buy book stores to learn how humans speak - gain 2x gold from autobiography
     tierToUpgrade: 11
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Book Store
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Ghost Writer
+    icon: {fileID: 21300000, guid: 06254aaa062cf744385b6d36a7159a90, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 3.75e+12
+    description: You dont have time for all this - gain 2x gold from autobiography
     tierToUpgrade: 11
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Book Store
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Draft
+    icon: {fileID: 21300000, guid: 87534b5e8ea76894894a99713518b548, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 3.75e+13
+    description: Make a draft for your book its importnant - gain 2x gold from autobiography
     tierToUpgrade: 11
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Book Store
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Start Selling
+    icon: {fileID: 21300000, guid: a3a5b1ce19ea0db43a9b9204822cfc4a, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 3.75e+15
+    description: Your book needs to get out there somehow - gain 2x gold from autobiography
     tierToUpgrade: 11
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Book Store
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Worlds Best Seller
+    icon: {fileID: 21300000, guid: 1930ad6e6a4ed97468d684d65f627b6e, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 3.75e+17
+    description: Your book goes viral no thanks to you - gain 2x gold from autobiography
     tierToUpgrade: 11
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Book Store
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Push your book more
+    icon: {fileID: 21300000, guid: 1d8c0d3946daae6469728b8a57e12504, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 3.75e+19
+    description: Everyone must read your book - gain 2x gold from autobiography
     tierToUpgrade: 11
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Local Students
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: 41781b1ad1f3cbd469a4b1490f0be003, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1e+13
+    description: Need to start gathering scietists somewhere - gain 2x gold from
+      scientists
     tierToUpgrade: 12
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Local Students
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Portfolio
+    icon: {fileID: 21300000, guid: 06d62282aff35e547b0e200868eff0ac, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 5e+13
+    description: Build up your reserch protfolio to get more in - gain 2x gold from
+      scientists
     tierToUpgrade: 12
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Local Students
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Graduates
+    icon: {fileID: 21300000, guid: d088b4f67361cbb4d811e25cbe2bc241, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 5e+14
+    description: Thats more like it some people that know what their doing - gain
+      2x gold from scientists
     tierToUpgrade: 12
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Local Students
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Pros
+    icon: {fileID: 21300000, guid: 23f5ec9a176698d419702cbb83cf4f53, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 5e+16
+    description: Ah the smart kids they probably did programmign or something - gain
+      2x gold from scientists
     tierToUpgrade: 12
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Local Students
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Full Time
+    icon: {fileID: 21300000, guid: be26c28dbe480b041995faf9665c3837, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 5e+18
+    description: Start paying them you lose money to make money - gain 2x gold from
+      scientists
     tierToUpgrade: 12
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Local Students
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: You did it you worked it out
+    icon: {fileID: 21300000, guid: bb4a8d50144b8d6459948ea103a929b1, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 5e+20
+    description: You did it good work - gain 2x gold from scientists
     tierToUpgrade: 12
     upgradeAmount: 2
     purchased: 0
   - upgradeName: House Plot
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: cb45ac640a9de0645a486633c871fbd5, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.4e+14
+    description: Hosuing is expensive but you need rooms - gain 2x gold from buying
+      out land
     tierToUpgrade: 13
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: House Plot
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Getto
+    icon: {fileID: 21300000, guid: e4337a116a592374dbfa52ebab9957e2, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 7e+14
+    description: Its cheap and spacious - gain 2x gold from buying out land
     tierToUpgrade: 13
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: House Plot
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Georgia's House
+    icon: {fileID: 21300000, guid: 216268a27a3701b4f958fee05fec5746, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 7e+15
+    description: Its huge you are going up in the world - gain 2x gold from buying
+      out land
     tierToUpgrade: 13
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: House Plot
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Richness
+    icon: {fileID: 21300000, guid: a3b1e4fb2ef3a9c44b266e82654708cb, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 7e+17
+    description: Its the next biggest biggest thing why not invest - gain 2x gold
+      from investing
     tierToUpgrade: 13
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: House Plot
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Suburb
+    icon: {fileID: 21300000, guid: cb45ac640a9de0645a486633c871fbd5, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 7e+19
+    description: For what you are doing you need all the land you can get - gain
+      2x gold from buying out land
     tierToUpgrade: 13
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: House Plot
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: States
+    icon: {fileID: 21300000, guid: 1930ad6e6a4ed97468d684d65f627b6e, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 7e+21
+    description: Why not buy a state right? - gain 2x gold from buying out land
     tierToUpgrade: 13
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Gather Metal
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+    icon: {fileID: 21300000, guid: d7da0be4236a3434492f6c1b4191e99e, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.7e+15
+    description: Metal is useful - gain 2x gold from building a bunker
     tierToUpgrade: 14
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Gather Metal
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Hire Workers
+    icon: {fileID: 21300000, guid: 9396be5ffd7e1bf47a308a7d78d1be2e, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 8.5e+15
+    description: I mean you cant build it - gain 2x gold from building a bunker
     tierToUpgrade: 14
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Gather Metal
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: DIGGER
+    icon: {fileID: 21300000, guid: 0dd164c1342ecbc4e9a8f2887de225a5, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 8.5e+16
+    description: DIGGER - gain 2x gold from building a bunker
     tierToUpgrade: 14
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Gather Metal
-    icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
+  - upgradeName: Use Land
+    icon: {fileID: 21300000, guid: cb45ac640a9de0645a486633c871fbd5, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 8.5e+18
+    description: I mean you own so much of it now - gain 2x gold from building a
+      bunker
     tierToUpgrade: 14
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Gather Metal
+  - upgradeName: Put in the Work, Put in the Hours
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 8.5e+20
+    description: Now that its planned put it into action - gain 2x gold from building
+      a bunker
     tierToUpgrade: 14
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Gather Metal
+  - upgradeName: 'Watch '
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 8.5e+22
+    description: It is done you have done it - gain 2x gold from bulding a bunker
     tierToUpgrade: 14
     upgradeAmount: 2
     purchased: 0
   - upgradeName: 'Do Reserch '
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 2.1e+16
+    description: You dont know how to make electric cars - gain 2x gold from electric
+      cars
     tierToUpgrade: 15
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: 'Do Reserch '
+  - upgradeName: Gather Matrials
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.05e+17
+    description: You need this to make cars, I think - gain 2x gold from electric
+      cars
     tierToUpgrade: 15
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: 'Do Reserch '
+  - upgradeName: Employ Elon Musk
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.05e+18
+    description: He knows all - gain 2x gold from electric cars
     tierToUpgrade: 15
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: 'Do Reserch '
+  - upgradeName: Model G
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.05e+20
+    description: Your Model Goblin car is a big hit - gain 2x gold from electric
+      cars
     tierToUpgrade: 15
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: 'Do Reserch '
+  - upgradeName: Buy Lesla
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1e+22
+    description: If you own the other biggest electric car company you rule them
+      all - gain 2x gold from electric cars
     tierToUpgrade: 15
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: 'Do Reserch '
+  - upgradeName: Sell Stocks
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1e+24
+    description: You own two huge companies you dont need them sell them off - gain
+      2x gold from electric cars
     tierToUpgrade: 15
     upgradeAmount: 2
     purchased: 0
   - upgradeName: MORE RESERCH
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 2.6e+17
+    description: Rockets Really - gain 2x gold from space company
     tierToUpgrade: 16
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: MORE RESERCH
+  - upgradeName: Blue Prints
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.3e+18
+    description: You need to learn - gain 2x gold from space company
     tierToUpgrade: 16
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: MORE RESERCH
+  - upgradeName: Elon Musk can Help
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.3e+19
+    description: He can do anything I swear - gain 2x gold from space company
     tierToUpgrade: 16
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: MORE RESERCH
+  - upgradeName: Take Off
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.3e+22
+    description: Your first take off was successful - gain 2x gold from space company
     tierToUpgrade: 16
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: MORE RESERCH
+  - upgradeName: To Mars
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.3e+22
+    description: Red Giant they call it - gain 2x gold from space company
     tierToUpgrade: 16
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: MORE RESERCH
+  - upgradeName: Out of the Milkey Way
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.3e+24
+    description: Out of this Universe
     tierToUpgrade: 16
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Use those Scientists
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 3.1e+18
+    description: Its the beggining of the end - gain 2x gold from time travel
     tierToUpgrade: 17
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Use those Scientists
+  - upgradeName: Elon Musk
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.55e+19
+    description: HE CAN HELP AGAIN - gain 2x gold from time travel
     tierToUpgrade: 17
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Use those Scientists
+  - upgradeName: Time Travel is Hard
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.55e+20
+    description: I mean no human has done it whats stopping you - gain 2x gold from
+      time travel
     tierToUpgrade: 17
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Use those Scientists
+  - upgradeName: Wait that Mouse Moved
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 1.5e+22
+    description: Hmmmmm thats a big step - gain 2x gold from time travel
     tierToUpgrade: 17
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Use those Scientists
+  - upgradeName: Break Through
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 6.5e+25
+    description: You did it your plan is working - gain 2x gold for time travel
     tierToUpgrade: 17
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Use those Scientists
+  - upgradeName: Go Back
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 6.5e+30
+    description: GO BACK I WANT TO BE MONKEY - gain 2x gold from time travel
     tierToUpgrade: 17
     upgradeAmount: 2
     purchased: 0
   - upgradeName: Make Friends, Good Friends
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 7.1e+20
+    description: You dont need politics - gain 2x gold in brainwashing
     tierToUpgrade: 18
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Make Friends, Good Friends
+  - upgradeName: Trustworthy
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 3e+21
+    description: They trust you thats good very good - gain 2x gold from brainwashing
     tierToUpgrade: 18
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Make Friends, Good Friends
+  - upgradeName: Backstab
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 3.5e+22
+    description: You dont need them, yet - gain 2x gold from brainwashing
     tierToUpgrade: 18
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Make Friends, Good Friends
+  - upgradeName: 'Blend in '
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 3.5e+25
+    description: You are them now - gain 2x gold from brainwashing
     tierToUpgrade: 18
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Make Friends, Good Friends
+  - upgradeName: Govern Them
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 6.5e+30
+    description: 'You own the planet who needs them '
     tierToUpgrade: 18
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: Make Friends, Good Friends
+  - upgradeName: RULE THE WORLD
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 6.5e+33
+    description: Own the world become the world - gain 2x gold from brainwashing
     tierToUpgrade: 18
     upgradeAmount: 2
     purchased: 0
   - upgradeName: The Plan is coming Together
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 6.5e+21
+    description: All Along this was your Plan - gain 2x gold from swapping humans
     tierToUpgrade: 19
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: The Plan is coming Together
+  - upgradeName: You Backstabbed Me
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 6.5e+25
+    description: After everything I helped you with - gain 2x gold from swapping
+      all humans
     tierToUpgrade: 19
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: The Plan is coming Together
+  - upgradeName: After Everything
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 6.5e+30
+    description: I helped you gave you intell and this is what you do - gain 2x gold
+      from swapping all humans
     tierToUpgrade: 19
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: The Plan is coming Together
+  - upgradeName: Good Luck
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 6.5e+35
+    description: Enjoy Hell Well Being - gain 2x gold from swapping all humans
     tierToUpgrade: 19
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: The Plan is coming Together
+  - upgradeName: You're Next
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 3.4028235e+38
+    description: This is the end for us - gain 2x gold from swapping all humans
     tierToUpgrade: 19
     upgradeAmount: 2
     purchased: 0
-  - upgradeName: The Plan is coming Together
+  - upgradeName: Good Game
     icon: {fileID: 21300000, guid: cc873209f7315664ba07c52f1d8715a0, type: 3}
     prefabUI: {fileID: 0}
-    upgradeCost: 6.5e+13
-    description: Its the next biggest thing why not invest - gain 2x gold from investing
+    upgradeCost: 3.4028235e+38
+    description: You did it the world is Well Beings, Hope it was worth it - gain
+      2x gold from swapping all humans
     tierToUpgrade: 19
     upgradeAmount: 2
     purchased: 0
@@ -1819,7 +1812,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 143025191}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.9938334
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2439,6 +2432,7 @@ RectTransform:
   m_Children:
   - {fileID: 1285168272}
   - {fileID: 1814689328}
+  - {fileID: 288583679}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2714,6 +2708,155 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403748144}
   m_CullTransparentMesh: 1
+--- !u!1001 &1440269407
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1269538101}
+    m_Modifications:
+    - target: {fileID: 2257866607709452175, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866607709452175, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 04d23de32c1c5fc499ae6d63a6d6a19a, type: 3}
+    - target: {fileID: 2257866607814216626, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866607814216626, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a604e9b7cec86fe4f846acd239a0f9e2, type: 3}
+    - target: {fileID: 2257866607814216626, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_Color.b
+      value: 0.3803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866607814216626, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_Color.g
+      value: 0.57254905
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866607814216626, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_Color.r
+      value: 0.29411766
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647120, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_Name
+      value: Saving System
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647122, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: tiers
+      value: 
+      objectReference: {fileID: 403403776}
+    - target: {fileID: 2257866608512647122, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 403403774}
+    - target: {fileID: 2257866608512647122, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: upgrades
+      value: 
+      objectReference: {fileID: 403403777}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7143886
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7143886
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7143886
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -803
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 911
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2257866608512647123, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 814e389f7a401cd48b04df8944bf74b1, type: 3}
 --- !u!1 &1775475861
 GameObject:
   m_ObjectHideFlags: 0
@@ -3360,6 +3503,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2059475233006068383, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b985f7206cac88f4badc363261e41619, type: 2}
     - target: {fileID: 919132149155446097, guid: b762231c23a81954385f7b15dcfc5894, type: 3}
       propertyPath: m_Name
       value: Well
