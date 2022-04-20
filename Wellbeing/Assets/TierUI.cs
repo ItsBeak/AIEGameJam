@@ -12,7 +12,7 @@ public class TierUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
 
     public Tier assignedTier;
-
+    
     public Image icon;
 
     public Image buttonBacker;
@@ -80,5 +80,5 @@ public class TierUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         TooltipManager.TM.HideTooltip();
         Debug.Log("ayy where you go");
     }
-
+    
 }
