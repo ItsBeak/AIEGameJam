@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 
     public static GameManager MANAGER;
 
+    public GameObject myPrefab;
+
     public TierManager tierManager;
     public UpgradeManager upgradeManager;
 
@@ -35,6 +37,8 @@ public class GameManager : MonoBehaviour
     public void ThrowCoin()
     {
         coins++;
+
+        Instantiate(myPrefab, new Vector3(-2.3f, 15f, 7f), Quaternion.identity);
     }
 
     public void GenerateCoin(float modifier)
